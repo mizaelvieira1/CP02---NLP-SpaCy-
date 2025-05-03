@@ -1,24 +1,35 @@
-# CP02 — NLP com spaCy  
-## Analisador de Sentimentos com spaCy
+# 📘 CP02 — NLP com spaCy  
+## 💬 Analisador de Sentimentos baseado em Regras
 
-### 📝 Descrição
-Este projeto utiliza a biblioteca **spaCy** para identificar sentimentos (positivos, negativos, mistos ou neutros) em frases da língua portuguesa, por meio de **regras personalizadas com `Matcher`** e **extensões do objeto `Txt`**.
+### 📄 Descrição
+Este projeto utiliza a biblioteca **spaCy** para realizar a análise de sentimentos em frases escritas em português.  
+A detecção é feita com **regras manuais usando o Matcher**, que busca palavras positivas e negativas no texto.
 
----
-
-### ⚙️ Como funciona
-
-- Utiliza o modelo pré-treinado `pt_core_news_sm` para processar frases em português.
-- Define padrões com `Matcher` para identificar palavras associadas a sentimentos **positivos** e **negativos**.
-- Cria uma extensão personalizada `.sentimento` no objeto `Txt` que:
-  - Detecta a presença de palavras-chave na frase;
-  - Classifica automaticamente o sentimento da seguinte forma:
-    - `Positivo`: contém palavras positivas e nenhuma negativa;
-    - `Negativo`: contém palavras negativas e nenhuma positiva;
-    - `Misto`: contém ambas;
-    - `Neutro`: não contém nenhuma palavra associada a sentimento.
+🎯 **Objetivo:** classificar cada frase como:
+- ✅ Positivo  
+- ❌ Negativo  
+- ⚖️  Misto  
+- ➖ Neutro  
 
 ---
 
-### ✅ Exemplo de Saída
+### ⚙️ Funcionamento
+
+1. 📥 Carrega o modelo de linguagem pré-treinado: `pt_core_news_sm`.
+2. 🧠 Define padrões com `Matcher` para detectar palavras positivas e negativas.
+3. 🧩 Adiciona uma extensão personalizada ao objeto `Doc`, chamada `.sentimento`.
+4. 📊 Analisa uma lista de frases e imprime o sentimento classificado.
+
+---
+
+### 🧾 Classificações possíveis
+
+- ✅ **Positivo**: contém palavras positivas e nenhuma negativa.  
+- ❌ **Negativo**: contém palavras negativas e nenhuma positiva.  
+- ⚖️  **Misto**: contém palavras positivas e negativas.  
+- ➖ **Neutro**: não contém nenhuma palavra associada a sentimentos.
+
+---
+
+### 🧪 Exemplo de Saída
 
