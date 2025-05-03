@@ -6,6 +6,7 @@
 | Nome completo                 | RM       |
 |-------------------------------|----------|
 | Mizael Vieira Bezerra         | RM555796 |
+| José Enrico Tavares           | RM554471 |
 | Santiago Nascimento Bernardes | RM557447 |
 
 ### 📄 Descrição
