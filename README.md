@@ -33,3 +33,13 @@ A detecção é feita com **regras manuais usando o Matcher**, que busca palavra
 
 ### 🧪 Exemplo de Saída
 
+Frase: Hoje o dia está maravilhoso e me sinto ótimo!
+Sentimento detectado: Positivo
+Frase: Estou muito triste com os acontecimentos recentes.
+Sentimento detectado: Negativo
+Frase: Foi uma experiência incrível, mas o final foi horrível.
+Sentimento detectado: Misto
+Frase: Nada de especial aconteceu hoje.
+Sentimento detectado: Neutro
+Frase: Estou feliz, mas também um pouco chateado.
+Sentimento detectado: Misto
