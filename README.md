@@ -43,7 +43,12 @@ A detecção é feita com **regras manuais usando o Matcher**, que busca palavra
 1. Instale o spaCy:
    ```bash
    pip install spacy
-
+2. Baixe o modelo de português:
+   ```bash
+   python -m spacy download pt_core_news_sm
+3. Execute o script:
+   ```bash
+   python analise_sentimentos.py
 
 ---
 
