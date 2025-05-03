@@ -38,6 +38,15 @@ A detecção é feita com **regras manuais usando o Matcher**, que busca palavra
 
 ---
 
+**### 🚀 Execução
+
+1. Instale o spaCy:
+   ```bash
+   pip install spacy
+**
+
+---
+
 ### 🧪 Exemplo de Saída
 
 - Frase: Hoje o dia está maravilhoso e me sinto ótimo!
