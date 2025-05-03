@@ -6,7 +6,7 @@
 | Nome completo                 | RM       |
 |-------------------------------|----------|
 | Mizael Vieira Bezerra         | RM555796 |
-| Santiago Nascimento Bernardes | RM234567 |
+| Santiago Nascimento Bernardes | RM557447 |
 
 ### 📄 Descrição
 Este projeto utiliza a biblioteca **spaCy** para realizar a análise de sentimentos em frases escritas em português.  
