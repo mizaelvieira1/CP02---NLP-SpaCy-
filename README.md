@@ -1,6 +1,13 @@
 # 📘 CP02 — NLP com spaCy  
 ## 💬 Analisador de Sentimentos baseado em Regras
 
+### 👥 Integrantes
+
+| Nome completo                 | RM       |
+|-------------------------------|----------|
+| Mizael Vieira Bezerra         | RM555796 |
+| Santiago Nascimento Bernardes | RM234567 |
+
 ### 📄 Descrição
 Este projeto utiliza a biblioteca **spaCy** para realizar a análise de sentimentos em frases escritas em português.  
 A detecção é feita com **regras manuais usando o Matcher**, que busca palavras positivas e negativas no texto.
